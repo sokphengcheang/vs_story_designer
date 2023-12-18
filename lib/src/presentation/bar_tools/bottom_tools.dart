@@ -128,7 +128,7 @@ class BottomTools extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           const Text(
-                            'FChat Messanger',
+                            'FChat Messenger',
                             style: TextStyle(
                                 color: Colors.white38,
                                 letterSpacing: 1.5,
@@ -226,17 +226,16 @@ class BottomTools extends StatelessWidget {
                   child: onDoneButtonStyle ??
                       Container(
                         padding: const EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(8),
-                            border:
-                                Border.all(color: Colors.white, width: 1.5)),
+                        margin: const EdgeInsets.only(right: 15),
                         child: const Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Padding(
                                 padding: EdgeInsets.only(left: 0, right: 2),
-                                child: Icon(Icons.share_sharp, size: 28),
+                                child: Icon(
+                                  Icons.check_rounded,
+                                  size: 28,
+                                ),
                               ),
                             ]),
                       ))
