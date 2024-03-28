@@ -185,7 +185,6 @@ class VSStoryDesigner extends StatefulWidget {
 class _VSStoryDesignerState extends State<VSStoryDesigner> {
   @override
   void initState() {
-    Paint.enableDithering = true;
     WidgetsFlutterBinding.ensureInitialized();
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
