@@ -183,8 +183,6 @@ class AppFonts {
         return GoogleFonts.greatVibesTextTheme();
       case FontType.zillaSlab:
         return GoogleFonts.zillaSlabTextTheme();
-      case FontType.sourceSansPro:
-        return GoogleFonts.sourceSansProTextTheme();
       case FontType.raleway:
         return GoogleFonts.ralewayTextTheme();
       case FontType.ptSans:
