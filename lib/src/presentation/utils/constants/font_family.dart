@@ -214,9 +214,6 @@ class AppFonts {
       case FontType.cormorant:
         return GoogleFonts.cormorantTextTheme();
 
-      case FontType.sourceSerifPro:
-        return GoogleFonts.sourceSerifProTextTheme();
-
       case FontType.kurale:
         return GoogleFonts.kuraleTextTheme();
 
